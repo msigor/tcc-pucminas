@@ -1,41 +1,21 @@
-# SAFe Transformation in a Large Financial Corporation
+# SAFe transformation in a large financial corporation
 
-Putta, A.; Paasivaara, M.; Lassenius, C. "SAFe Transformation in a Large Financial Corporation," *Empirical Software Engineering*, vol. 29, Article 27, pp. 1–45, 2024. doi: [10.1007/s10664-023-10420-w](https://doi.org/10.1007/s10664-023-10420-w)
-
----
+PUTTA, Abheeshta; PAASIVAARA, Maria; LASSENIUS, Casper. "SAFe transformation in a large financial corporation," in *Empirical Software Engineering*, vol. 29, Article 27, 2024. doi: [10.1007/s10664-023-10420-w](https://doi.org/10.1007/s10664-023-10420-w)
 
 ## 1. Fichamento de Conteúdo
-
-O artigo apresenta um **estudo de caso exploratório** sobre a adoção do *Scaled Agile Framework (SAFe)* em uma grande corporação do setor financeiro (PFA, na Dinamarca). O objetivo foi compreender as **razões**, **atividades do processo de transformação**, **benefícios** e **desafios** associados à implementação.
-
-Foram realizadas **24 entrevistas semiestruturadas com 27 participantes** em diferentes níveis da organização (gestores, product owners, scrum masters, desenvolvedores). A análise seguiu técnicas de *open e axial coding* com apoio do NVivo, validada por sessões de feedback com os entrevistados.
-
-**Principais achados**:
-
-* **Razões da adoção**: reduzir tempo de entrega (de 18 meses para 3 meses), melhorar colaboração entre áreas de negócio e TI, aumentar produtividade, transparência e eficiência; além da popularidade e documentação detalhada do SAFe no setor financeiro.
-* **Processo de transformação**: conduzido **top-down**, incluiu seleção do framework, engajamento da alta gestão, comunicação interna, pilotos (primeiro ART em front-end), contratação de coaches internos e externos, treinamentos (300+ pessoas), criação de conselhos de priorização, centros de competência e múltiplos *Agile Release Trains (ARTs)*.
-* **Benefícios identificados**: melhor colaboração entre equipes, maior transparência, ciclos de entrega mais curtos, mais foco no cliente e ganho de produtividade.
-* **Desafios enfrentados**: alinhamento inadequado entre *release trains* e *value streams*, dependências cruzadas e overhead de coordenação; coexistência de práticas antigas de gestão de projetos (com project managers) gerando conflitos de prioridade; resistência cultural e dificuldade de estabelecer um “agile mindset”.
-
-O estudo reforça que a adoção de SAFe não é apenas uma questão metodológica, mas uma **transformação cultural e organizacional profunda**, que exige investimento em treinamento, coaching e governança clara .
-
----
+Este artigo apresenta um estudo de caso sobre a **transformação SAFe (Scaled Agile Framework) em uma grande corporação financeira**, buscando preencher a lacuna de pesquisas empíricas sobre a adoção deste framework, que é o mais popular para escalar o desenvolvimento ágil em grandes organizações. O estudo investiga as razões para a adoção do SAFe, o processo de transformação, os benefícios alcançados e os desafios enfrentados. A metodologia envolveu 24 entrevistas semiestruturadas com 27 participantes da organização, PFA, uma empresa dinamarquesa com aproximadamente 300 desenvolvedores de software, e a análise qualitativa dos dados. Os resultados indicam que as principais razões para a adoção foram **encurtar o tempo de colocação no mercado, melhorar a colaboração e a completude do SAFe como framework**. O processo de transformação foi top-down e gradual, com atividades como pilotagem, treinamento, coaching e formação de Agile Release Trains (ARTs), incluindo "Scrum tours" para difundir os princípios ágeis básicos. Dentre os benefícios, destacam-se a **colaboração aprimorada, maior transparência e redução do tempo de mercado**. No entanto, a pesquisa também revela desafios significativos, como o desalinhamento dos ARTs com os fluxos de valor (gerando dependências inter-ART), a persistência de projetos e o papel ambíguo dos gerentes de projeto, que causaram conflitos de prioridade e sobrecarga de coordenação. O estudo conclui que, apesar dos benefícios, a implementação do SAFe em um contexto complexo traz desafios organizacionais e culturais que exigem adaptação e planejamento cuidadoso.
 
 ## 2. Fichamento Bibliográfico
-
-* **SAFe (Scaled Agile Framework)**: framework para escalar práticas ágeis e lean em grandes organizações, estruturado em diferentes níveis (Team, Program/ART, Large Solution, Portfolio, Full SAFe) (pp. 4–6) .
-* **Razões para adoção**: encurtar time-to-market (reduzir de 18 meses para 3), melhorar colaboração entre silos, aumentar produtividade em 50%, eficiência em 40%, e adotar framework popular no setor financeiro (pp. 14–16) .
-* **Processo de transformação**: seleção do framework → engajamento da gestão → pilotos (ARTs) → coaching (interno/externo) → treinamentos → rollout gradual (pp. 17–20) .
-* **Benefícios principais**: colaboração, transparência, tempo de entrega reduzido, foco no cliente, melhoria de qualidade (pp. 23–25) .
-* **Desafios principais**: alinhamento de ARTs com *value streams*, manutenção de estruturas tradicionais de projetos, resistência cultural e overhead de coordenação (pp. 26–28) .
-
----
+*   **Scaled Agile Framework (SAFe)**: SAFe é um framework comercial amplamente popular para escalar metodologias ágeis (como Scrum, XP, Lean) para grandes contextos organizacionais. Foi concebido para ajudar grandes empresas a se tornarem mais responsivas a ambientes de mudança rápida e requisitos voláteis, mas a pesquisa científica sobre sua adoção e uso é limitada, com a maioria das informações vindo de literatura cinzenta, o que pode introduzir viés.
+*   **Razões para Adoção do SAFe**: As principais motivações para a adoção do SAFe na corporação estudada incluíram a necessidade de **encurtar o tempo de colocação no mercado** (reduzindo ciclos de entrega de 18 para 3 meses), a busca por **melhorar a colaboração** entre TI e negócios (eliminando silos organizacionais) e a percepção de que o SAFe é um **framework bem descrito e abrangente**, facilitando o início e a educação. A popularidade do SAFe no setor financeiro também foi um fator específico do contexto.
+*   **Processo de Transformação SAFe**: A transformação na PFA foi uma abordagem **top-down**, liderada pela gerência, e implementada passo a passo. As atividades-chave incluíram: seleção do framework, comunicação do compromisso da alta gerência, **pilotagem** com um ART inicial, **coaching** (com consultores externos e internos), **educação** de mais de 300 pessoas em cursos SAFe, e a formação de ARTs adicionais. A organização também implementou os **"Scrum tours"** para ensinar os fundamentos ágeis, que os cursos SAFe padrão não cobriam adequadamente.
+*   **Benefícios da Adoção do SAFe**: Os benefícios mais significativos identificados foram a **melhora na colaboração** (aproximando TI e negócios, formando equipes multifuncionais) e **aumento da transparência** (maior visibilidade sobre o trabalho e prioridades). Outros benefícios incluíram a **redução do tempo de colocação no mercado**, **melhor priorização**, **maior previsibilidade** nas entregas (70% do planejado), **aumento da autonomia da equipe** e **satisfação dos funcionários** (medida por pesquisas).
+*   **Desafios da Adoção do SAFe**: O principal desafio foi o **desalinhamento dos Agile Release Trains (ARTs) com os fluxos de valor**. Devido a políticas organizacionais e sistemas legados acoplados, os ARTs foram formados com base nas antigas estruturas de silos departamentais, resultando em **significativas dependências inter-ARTs e sobrecarga de coordenação**. A persistência de **projetos legados** e o **papel ambíguo dos gerentes de projeto** também geraram desafios, como conflitos de prioridade, ciclos de lançamento desalinhados e incerteza sobre a carreira dos gerentes de projeto. Outros desafios incluíram a **confusão sobre novos papéis ágeis**, **dificuldades na adoção da nova cultura** (mentalidade ágil e tomada de riscos), a sensação de estar **"sendo ágil em um mundo waterfall"**, o **abandono da organização por alguns funcionários**, eventos do SAFe que consumiam **muito tempo**, e a natureza **muito teórica dos cursos SAFe**.
 
 ## 3. Fichamento de Citações
-
-* *“The most salient reason for adopting SAFe was to shorten delivery cycles, reducing the average time to market from 18 months to 3 months.”*
-* *“The transformation proceeded in a top-down manner, starting with pilot agile release trains, training, and extensive coaching support.”*
-* *“Improved collaboration, transparency, and shorter time to market were considered the most important benefits of the SAFe adoption.”*
-* *“The most salient challenge was aligning the release trains with value streams, which led to cross-train dependencies and coordination overhead.”*
-* *“The organization did not get rid of project managers, which led to clashes in priorities and additional coordination overhead.”*
-* *“Adopting SAFe is not only about applying agile practices but about changing the mindset and culture of the organization.”*
+*   "As agile software development is increasingly adopted in the software industry, the popularity of scaling frameworks supporting adoption in large development contexts is increasing rapidly. While several such frameworks exist, the most popular one at the moment is the Scaled Agile Framework (SAFe). Despite its popularity, there exists limited research on its usage and adoption."
+*   "We identified 17 reasons for SAFe adoption in this organization, of which the most salient ones were to shorten the time to market, improve collaboration, and use a well-described and comprehensive framework."
+*   "I think mainly was the fast delivery, faster to market. That’s because we have a problem ... but we had a problem back then [before the SAFe adoption] that from an idea was created until you have something that you could put out, it took at least one and a half years. And that’s a very long reaction time if you want to be market-relevant. — Project Manager"
+*   "The most significant activities during the transformation were piloting, education, coaching, and the forming of agile release trains. Our case also implemented "Scrum tours" to increase the understanding of lean and agile principles."
+*   "I mean, without those coaches all the time, trying to push us to stick to the framework, we would — for sure — have fallen back to our old way of working. — Scrum Master"
+*   "We identified a total of 16 challenges, with the most salient one being aligning the release trains with value streams. Failing with this led to cross-release train dependencies and coordination overhead, inhibiting agility. Further, the organization did not get rid of projects and project managers, which led to priority clashes and coordination overhead."

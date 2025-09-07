@@ -1,8 +1,8 @@
 - Moløkken-Østvold, K., et al. "Playing Planning Poker in Crowds: Human Computation of Software Effort Estimates," in Proceedings of the 43rd International Conference on Software Engineering (ICSE), IEEE, 2021. doi: 10.1109/ICSE43902.2021.00014  
 
-- Gren, L., et al. "Multitasking Across Industry Projects: A Replication Study," arXiv preprint arXiv:2006.12636, 2020. Available: https://arxiv.org/pdf/2006.12636.pdf  
+- Gren, L., et al. "Multitasking Across Industry Projects: A Replication Study," in Proceedings of the 42nd International Conference on Software Engineering (ICSE), ACM, 2020. Available: https://dl.acm.org/doi/abs/10.1145/3387940.3391495?casa_token=upHeo5YP-0QAAAAA:eOQj6uSJbmhPAl6l_uUuxdTblbtMTlxb3osuVj34MQ4kMhJv0BP0NaxqiH-LWIW62s9c0cjdGkyI  
 
-- Wurzel, J., et al. "How Do Software Developers Use GitHub Actions to Automate Their Workflows?," arXiv preprint arXiv:2103.12224, 2021. Available: https://arxiv.org/abs/2103.12224  
+- Wurzel, J., et al. "How Do Software Developers Use GitHub Actions to Automate Their Workflows?," in 2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE), IEEE, 2021. Available: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9463074&casa_token=4ZnpE0rLi-EAAAAA:kv0fUuzFJOKbMJb22JSKL0MbmH-1bYPQUOqS7_qjUariNQMBj4rZAsq_3RB828RD8a0cPMcxdA&tag=1  
 
 - Barros-Justo, J., et al. "Assessing Individual Contributions to Software Engineering Projects with Git Logs and User Stories," in Proceedings of the 34th ACM Symposium on Applied Computing, ACM, 2020. doi: 10.1145/3328778.3366948  
 
@@ -14,7 +14,7 @@
 
 - Kuhrmann, M., et al. "SAFe Transformation in a Large Financial Corporation," Empirical Software Engineering, vol. 29, no. 2, 2024. doi: 10.1007/s10664-023-10420-w  
 
-- Al-Kasah, R., et al. "Simulating the Software Development Lifecycle: The Waterfall Model," arXiv preprint arXiv:2308.03940, 2023. Available: https://arxiv.org/pdf/2308.03940  
+- Al-Kasah, R., et al. "Simulating the Software Development Lifecycle: The Waterfall Model," Journal of Cybersecurity and Privacy, vol. 6, no. 6, 2023. Available: https://www.mdpi.com/2571-5577/6/6/108  
 
 - Müller, R., et al. "Fall Seven Times, Stand Up Eight: Linking Project Management Innovation, Project Governance, and High-Performance Work Practices to Project Success," Frontiers in Psychology, vol. 13, pp. 902816, 2022. doi: 10.3389/fpsyg.2022.902816  
 
@@ -24,6 +24,6 @@
 
 - Zaman, F., et al. "4PCDT: A Quantifiable Parameter-Based Framework for Academic Software Project Management," International Journal of Advanced Computer Science and Applications (IJACSA), vol. 13, no. 1, pp. 279-288, 2022. doi: 10.14569/IJACSA.2022.0130136  
 
-- Singh, P., et al. "Agile Requirement Change Management Model for Global Software Development," arXiv preprint arXiv:2402.14595, 2024. Available: https://arxiv.org/pdf/2402.14595  
+- Khan, S., et al. "Impact of Servant Leadership on Project Success Through Mediating Role of Team Motivation and Effectiveness: A Case of Software Industry," SAGE Open, vol. 12, no. 4, pp. 1-15, 2022. Available: https://journals.sagepub.com/doi/epub/10.1177/21582440221122747  
 
-- Shin, H., et al. "RSMM: A Framework to Assess Maturity of Research Software Project," arXiv preprint arXiv:2406.01788, 2024. Available: https://arxiv.org/pdf/2406.01788  
+- Jain, A., et al. "Estimating Efforts for Various Activities in Agile Software Development: An Empirical Study," in 2022 International Conference on Software Engineering (ICSE), IEEE, 2022. Available: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9851663  

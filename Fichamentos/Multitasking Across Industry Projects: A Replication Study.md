@@ -1,43 +1,27 @@
 # Multitasking Across Industry Projects: A Replication Study
 
-**Karina Kohl; Bogdan Vasilescu; Rafael Prikladnicki.** "Multitasking Across Industry Projects: A Replication Study," in *Proceedings of the 13th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE 2020), co-located with ICSE*, pp. 1–8, Seoul, South Korea, May 2020. doi: [10.1145/1122445.1122456](https://doi.org/10.1145/1122445.1122456)&#x20;
-
----
+KOHL, Karina; VASILESCU, Bogdan; PRIKLADNICKI, Rafael. "Multitasking Across Industry Projects: A Replication Study," in *CHASE 2020: International Workshop on Cooperative and Human Aspects of Software Engineering*, May 24, 2020, Seoul, South Korea. ACM, New York, NY, USA, 8 pages. doi: [10.1145/1122445.1122456](https://doi.org/10.1145/1122445.1122456)
 
 ## 1. Fichamento de Conteúdo
+Este artigo explora a **multitarefa no desenvolvimento de software em ambientes industriais**, uma prática comum que, embora vise otimizar a alocação de recursos, acarreta custos cognitivos significativos, como distração, baixa qualidade de trabalho e estresse. O estudo é uma **replicação conceitual** de uma pesquisa anterior que analisou desenvolvedores de software de código aberto (OSS) no GitHub. O objetivo é investigar como a multitarefa afeta a produtividade de desenvolvedores da indústria, identificar seus limites e comparar esses achados com os resultados do estudo original. A metodologia empregou uma combinação de análise quantitativa de dados do GitLab (157.658 commits de 1.213 desenvolvedores) e entrevistas semiestruturadas com 10 desenvolvedores de uma empresa de tecnologia brasileira.
 
-Este artigo apresenta uma **replicação conceitual** de um estudo anterior de Vasilescu et al. (ICSE 2016) sobre **multitarefa de desenvolvedores**. Enquanto o original analisava desenvolvedores de projetos open source (GitHub), esta replicação foca em **desenvolvedores de uma empresa de software no Brasil**, usando dados de **157.658 commits em 2.453 repositórios GitLab** e **entrevistas semiestruturadas com 10 desenvolvedores**.
-
-**Resultados principais**:
-
-* **Níveis de multitarefa**: Desenvolvedores da indústria multitaskam em média em **2,41 projetos/semana**, similar a OSS developers (2,57). Em 22,37% das semanas analisadas houve multitarefa (contra 37% em OSS).
-* **Razões para multitarefa**: suporte a outros times, incidentes de produção, dependências entre equipes, reuniões e até procrastinação/ansiedade.
-* **Impacto na produtividade**: Trabalhar em menos projetos e manter foco repetitivo dia a dia **aumenta a produtividade**. Maior diversidade de linguagens e maiores context-switches correlacionaram-se negativamente. **Multitarefa em excesso não trouxe ganhos significativos**.
-* **Percepção dos desenvolvedores**: interrupções curtas (< 3 min) não impactam produtividade; acima disso geram perda de foco e sensação de “deixar a tarefa para trás”. Desenvolvedores relataram **aumento de stress e queda de felicidade** quando multitarefa é frequente.
-* **Comparação com OSS**: Em OSS, multitarefa é mais comum e vista como oportunidade de contribuição/reputação; na indústria, é frequentemente **imposta** por demandas externas (bugs, suporte, prioridades de negócio).
-
-Conclusão: a multitarefa é inevitável em SE, mas deve ser gerida com atenção ao custo cognitivo. Replicações como essa fortalecem a evidência de que o **excesso de context-switching compromete produtividade e bem-estar**.
-
----
+Os resultados revelaram que **desenvolvedores da indústria multitarefam tanto quanto os desenvolvedores OSS**, porém, tendem a focar mais em menos projetos. O estudo concluiu que **focar mais (em menos projetos) e trabalhar de forma mais repetitiva de um dia para o outro está associado a maior produtividade, mas não houve efeito significativo para um maior nível de multitarefa (AvgProjectsPerDay)**. Pequenas mudanças de contexto, com duração inferior a três minutos, não impactaram negativamente a produtividade; contudo, interrupções mais longas geraram a sensação de "deixar a tarefa anterior para trás". As razões comuns para multitarefa incluem dependências de tarefas, interesses pessoais, relacionamentos sociais, bem como correção de bugs e problemas de produção no contexto industrial. A multitarefa frequente foi associada a um aumento nos níveis de estresse e uma diminuição na felicidade percebida a médio e longo prazo.
 
 ## 2. Fichamento Bibliográfico
-
-* **Multitarefa em SE**: prática comum para otimizar alocação, mas com custos cognitivos (pp. 1–2).
-* **Dimensões analisadas**:
-
-  * *ProjectsPerDay* (número de projetos distintos por dia)
-  * *Weekly Focus (SFocus)* – dispersão de atenção entre projetos
-  * *Day-to-Day Focus (SSwitch)* – repetitividade nos padrões de mudança de contexto (pp. 3–4).
-* **Dataset da replicação**: 1.213 devs, 282 projetos, 157.658 commits, período 2018–2019, mais entrevistas qualitativas (pp. 3–4).
-* **Resultados quantitativos**: Focar em menos projetos aumenta produtividade; multitarefa alta (AvProjectsPerDay) não é significativa (pp. 8).
-* **Resultados qualitativos**: interrupções curtas toleráveis, mas interrupções longas geram dificuldade de retomar tarefas; stress aumenta em cenários de multitarefa recorrente (pp. 12–14).
-
----
+*   **Multitarefa no Desenvolvimento de Software (Multitasking):** A multitarefa é a capacidade de um desenvolvedor de interromper uma tarefa, mudar para outra e retornar à primeira quando necessário ou agendado. Embora possa ser utilizada para otimizar a alocação de recursos e repriorizar tarefas dinamicamente, ela vem acompanhada de um **custo cognitivo**, que pode levar à distração, trabalho de qualidade inferior e aumento do estresse, devido às limitações da flexibilidade cognitiva humana.
+*   **Replicação de Estudos na Engenharia de Software:** Um papel crucial na Engenharia de Software Empírica, pois permite à comunidade acadêmica construir conhecimento sólido, verificando quais resultados e observações se mantêm sob diferentes condições. Replicar um estudo, mesmo que os resultados sejam diferentes do original, é considerado bem-sucedido, pois oferece *insights* para entender as razões das divergências.
+*   **Dimensões de Multitarefa e Produtividade:** O estudo utiliza um modelo quantitativo para investigar a relação entre a produtividade (medida por "FileTouches" por unidade de tempo) e várias dimensões da multitarefa:
+    *   **Projetos por Dia (Projects Per Day / AvgProjectsPerDay):** Mede a atividade de multitarefa como o número de projetos diferentes para os quais um desenvolvedor contribui em um dia ou, de forma agregada semanalmente, o número médio de projetos por dia.
+    *   **Foco Semanal (Weekly Focus - SFocus):** Distingue a forma como os desenvolvedores distribuem sua atenção entre os projetos, usando um índice de entropia para medir a diversidade de seu foco.
+    *   **Foco Dia-a-Dia (Day-to-Day Focus - SSwitch):** Avalia a repetitividade das trocas de foco de um dia para o outro, indicando se o comportamento é mais ou menos repetitivo.
+*   **Razões para Multitarefa:** Tanto desenvolvedores OSS quanto da indústria multitarefam por motivos comuns como **dependências de tarefas** (ex: código de outras equipes), **interesses pessoais** (ex: aprender novas tecnologias) e **relacionamentos sociais** (ex: colaborar com outras equipes para reputação). Desenvolvedores da indústria também citam **correção de bugs de produção**, a **dinâmica do ambiente de trabalho**, **interação social** e, em alguns casos, **ansiedade, falta de foco e procrastinação**.
+*   **Impactos da Multitarefa na Produtividade e Bem-Estar:** Pequenas mudanças de contexto (< 3 minutos) não impactam significativamente a produtividade para desenvolvedores da indústria, e podem até permitir a finalização de múltiplas pequenas tarefas. No entanto, **interrupções mais longas ou contextos maiores para alternar dificultam o retorno à tarefa original**, aumentando o tempo para reconstruir o contexto e potencialmente causando erros. A **felicidade pode diminuir e os níveis de estresse aumentam** a médio e longo prazo com a multitarefa frequente, gerando frustração.
+*   **Percepção de Limites da Multitarefa:** Os desenvolvedores percebem que os limites da multitarefa são atingidos quando o **tamanho do contexto a ser alternado e a duração da interrupção são maiores**, tornando mais difícil retomar a tarefa anterior. O estresse crescente e a sensação de que o trabalho se torna "chato" (repetitivo) também são indicativos de que os limites foram cruzados, sendo a multitarefa uma forma de lidar com a monotonia para alguns.
 
 ## 3. Fichamento de Citações
-
-* *“We found out that industry developers multitask as much as OSS developers focusing more on fewer projects, and working more repetitively from one day to the next is associated with higher productivity.”*
-* *“Short context change, less than three minutes, did not impact results… however, longer interruptions bring a feeling of leaving the previous tasks behind.”*
-* *“Dependencies, personal interests, and social relationships are common reasons to multitask; in industry, production incidents and support requests add additional pressure.”*
-* *“Happiness decreases and stress levels increase at some point when multitasking frequently happens, leaving developers frustrated.”*
-* *“Focusing more (on fewer projects) and working more repetitively is associated with higher productivity, but there is no effect for higher multitasking.”*
+*   "Multitasking is the ability to stop working on a task, switch to another, and return eventually to the first one, as needed or as scheduled. Multitasking, however, comes at a cognitive cost: frequent context-switches can lead to distraction, sub-standard work, and even greater stress."
+*   "We found out that industry developers multitask as much as OSS developers focusing more (on fewer projects), and working more repetitively from one day to the next is associated with higher productivity, but there is no effect for higher multitasking."
+*   "Replications play a crucial role in Empirical Software Engineering by allowing the community to build knowledge about which results or observations hold under which conditions."
+*   "Short context change, less than three minutes, did not impact results from industry developers; however, more than that, it brings a feeling of left the previous tasks behind."
+*   "It is proportional to how much context is being switched: as the bigger the context switch and the longer the interruption, the harder it is to come back."
+*   "Happiness decrease. I feel tired at the end of the day."

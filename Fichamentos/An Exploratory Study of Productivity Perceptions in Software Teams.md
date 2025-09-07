@@ -2,38 +2,23 @@
 
 Ruvimova, A.; Lill, A.; Gugler, J.; Howe, L.; Huang, E.; Murphy, G.; Fritz, T. "An Exploratory Study of Productivity Perceptions in Software Teams," in *Proceedings of the 44th IEEE/ACM International Conference on Software Engineering (ICSE)*, pp. 99–109, Pittsburgh, USA, May 2022. doi: [10.1145/3510003.3510081](https://doi.org/10.1145/3510003.3510081)&#x20;
 
----
-
 ## 1. Fichamento de Conteúdo
+Este artigo explora a **percepção de produtividade em equipes de desenvolvimento de software**, buscando compreender a relação entre a produtividade individual percebida e a produtividade da equipe, um aspecto pouco explorado na literatura. O estudo destaca a pressão constante que as organizações de software enfrentam para aumentar a velocidade, volume e qualidade da produção, muitas vezes sem a capacidade de simplesmente aumentar o tamanho da equipe. A metodologia empregou um estudo longitudinal multimodal de três meses, coletando 624 pesquisas diárias e 2899 auto-relatos bi-horários de 25 desenvolvedores em cinco equipes na América do Norte e Europa, complementados por entrevistas mensais. O estudo foi conduzido durante a pandemia de COVID-19, com a maioria dos participantes trabalhando remotamente.
 
-O artigo examina como desenvolvedores de software percebem a **produtividade individual e em equipe** em contextos de trabalho ágil e distribuído. O estudo foi conduzido ao longo de 10 a 14 semanas com **25 desenvolvedores de cinco empresas** na América do Norte e Europa, utilizando **2.899 autorrelatos bi-horários, 624 pesquisas diárias e 75 entrevistas mensais**.
-
-**Principais resultados:**
-
-* As equipes de software não são estáticas, mas sim **estruturas fluidas e dinâmicas**, frequentemente reorganizadas em subequipes temporárias, o que dificulta avaliar a produtividade em grupo.
-* Desenvolvedores relataram **baixa consciência da produtividade do time**, especialmente em trabalho remoto, levando a avaliações baseadas em proxies como responsividade dos colegas, reuniões e engajamento percebido.
-* A **produtividade individual percebida foi o principal preditor da produtividade da equipe**, mais do que fatores como interações, tempo em reuniões ou trabalho não planejado.
-* Diferenças surgiram entre **critérios usados por gestores e colaboradores**: enquanto desenvolvedores acreditam ser avaliados por métricas de saída (tarefas concluídas, tempo investido), gestores afirmaram considerar engajamento, impacto e cumprimento de compromissos.
-* Reuniões tiveram impacto ambíguo: podem apoiar colaboração e foco, mas também fragmentam tempo e reduzem produtividade quando mal estruturadas.
-
-O artigo contribui para a discussão sobre como medir produtividade em Engenharia de Software, mostrando que percepções individuais influenciam fortemente a avaliação coletiva e que a natureza fluida das equipes exige novas abordagens para gestão e métricas.
-
----
+Os resultados revelam que os desenvolvedores operam em **"construções de equipe fluidas"**, com limites frequentemente mutáveis, o que impacta a consciência da equipe e dificulta a mensuração da produtividade coletiva. A pesquisa surpreendentemente descobriu que a **produtividade individual percebida é o preditor mais forte da produtividade da equipe percebida**, superando fatores como interações da equipe, trabalho não planejado e tempo em reuniões. Além disso, os desenvolvedores frequentemente carecem de consciência sobre o trabalho e o progresso de suas equipes, especialmente em ambientes remotos, levando-os a usar a própria produtividade como base para estimar a da equipe. O artigo também aponta para uma discrepância nas expectativas de avaliação de produtividade entre desenvolvedores individuais e gerentes, com estes últimos adotando uma visão mais holística.
 
 ## 2. Fichamento Bibliográfico
-
-* **Produtividade em software**: não pode ser reduzida a métricas objetivas como SLOC ou velocity; deve incluir percepções subjetivas, satisfação e estado de fluxo.
-* **Estruturas de equipe fluidas**: times frequentemente se reorganizam em subgrupos e squads temporários, dificultando métricas fixas de produtividade.
-* **Preditor mais forte**: a percepção da **produtividade individual** explica a maior parte da percepção de produtividade da equipe (coeficiente r=0.34\*\*\* no modelo de regressão).
-* **Critérios de avaliação**: colaboradores acreditam que gestores usam métricas tradicionais (tarefas/hora, projetos entregues), enquanto gestores alegam avaliar impacto, esforço e compromissos assumidos.
-* **Reuniões e engajamento**: reuniões podem ser produtivas quando geram decisões claras, mas são percebidas como perda de tempo quando frequentes ou sem objetivo.
-
----
+*   **Percepções de Produtividade em Equipes de Software**: O estudo visa preencher uma lacuna na compreensão da interação entre as percepções de produtividade individual e de equipe em desenvolvimento de software. A produtividade individual tem sido amplamente examinada, mas a relação complexa entre a percepção de um desenvolvedor sobre sua própria produtividade e a de sua equipe carece de investigação aprofundada. A pesquisa busca explorar como os indivíduos percebem a produtividade de suas equipes e como entendem sua própria produtividade no contexto da equipe.
+*   **Natureza Fluida das Equipes de Desenvolvimento**: Ao contrário da visão tradicional de equipes de software como entidades fixas, o estudo demonstra que os desenvolvedores operam em "construções de equipe fluidas" (fluid team constructs), com limites frequentemente mutáveis. Sub-equipes são comuns e dinâmicas, formadas por tarefas, projetos ou papéis, e desenvolvedores podem interagir mais com grupos externos do que com alguns membros de sua "equipe maior". Essa fluidez dificulta a avaliação da produtividade da equipe.
+*   **Consciência da Equipe e Seus Desafios**: Desenvolvedores frequentemente carecem de consciência sobre o trabalho e o progresso de suas equipes, um desafio exacerbado pelo trabalho remoto. Essa falta de consciência torna a avaliação da produtividade da equipe difícil. Em ambientes onde a informação é limitada, os desenvolvedores frequentemente usam proxies, como o engajamento em interações ou a disponibilidade de colegas, ou projetam sua própria produtividade na equipe.
+*   **Preditor Mais Forte da Produtividade da Equipe Percebida**: O estudo empírico conclui que a produtividade individual percebida por um desenvolvedor é o fator que mais fortemente prevê a produtividade percebida de sua equipe. Esse fator é mais influente do que a quantidade de interações da equipe, trabalho não planejado ou tempo gasto em reuniões. Isso pode indicar uma forte identificação do desenvolvedor com a equipe ou uma projeção de sua própria experiência em um contexto de baixa consciência da equipe.
+*   **Impacto Misto das Reuniões na Produtividade**: As reuniões têm um impacto substancial na produtividade individual e da equipe, que pode ser tanto positivo quanto negativo. São consideradas produtivas quando resultam em decisões acionáveis ou geram senso de realização, mas improdutivas quando não têm agenda clara, carecem de pessoas-chave, são excessivas ou fragmentam o dia de trabalho, prejudicando o foco.
+*   **Discrepância nas Percepções de Avaliação de Produtividade**: Existe uma divergência nas expectativas de como a produtividade é avaliada. Desenvolvedores individuais tendem a acreditar que são avaliados por métricas tradicionais de entrada/saída (e.g., tempo em tarefas, projetos concluídos). Em contraste, gerentes adotam uma visão mais holística, considerando fatores como compromissos, impacto e esforço real, reconhecendo que métricas automáticas não fornecem o quadro completo.
 
 ## 3. Fichamento de Citações
-
-* *“Developers tend to operate in fluid team constructs, which impacts team awareness and complicates gauging team productivity.”*
-* *“Perceived individual productivity was the strongest predictor of perceived team productivity, more than team interactions, unplanned work, or meeting time.”*
-* *“Assessing team productivity is difficult, especially due to limited team awareness… many participants stated they have no means to easily determine how much work their team has done.”*
-* *“There was a discrepancy between how developers expect to be assessed (output-based metrics) and how managers reported assessing productivity (impact, commitments, effort).”*
-* *“Meetings had a mixed impact on productivity, being productive when leading to concrete outcomes, but detrimental when too frequent or poorly structured.”*
+*   "We found that developers tend to operate in fluid team constructs, which impacts team awareness and complicates gauging team productivity."
+*   "We also found that perceived individual productivity most strongly predicted perceived team productivity, even more than the amount of team interactions, unplanned work, and time spent in meetings."
+*   "Despite the necessary and central role of teams in software development, surprisingly few studies focus on team software development productivity, and those that do, study a snapshot of development."
+*   "Assessing team productivity is difficult, especially due to limited team awareness."
+*   "Since I can’t see my team, I can only guess their productivity" (S10)
+*   "I tend to assume my team is as productive as I am" (S10)
